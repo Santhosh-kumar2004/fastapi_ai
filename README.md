@@ -1,13 +1,13 @@
 ### Coirei Internship - Task 1
 
-# AI API using FastAPI and Ollama
+### AI API using FastAPI and Ollama
 
-# Introduction
+### Introduction
 
 This is my Task 1 project for the Coirei GenAI Internship.
 In this project, I created a simple AI API using **FastAPI** and connected it with **Ollama**. The API takes user input and gives an AI-generated response.
 
-# Technologies Used
+### Technologies Used
 
 * Python
 * FastAPI
@@ -15,7 +15,7 @@ In this project, I created a simple AI API using **FastAPI** and connected it wi
 * Ollama
 * Postman
 
-# API
+### API
 
 POST/generate`
 
@@ -25,7 +25,7 @@ Example input:
 }
 The API sends the input to the Ollama AI model and returns the response.
 
-# How to Run
+### How to Run
 
 Install the required packages:
 uv pip install -r requirements.txt
@@ -41,7 +41,7 @@ http://127.0.0.1:8000/docs
 
 I also tested the API using **Postman**.
 
-# What I Learned
+### What I Learned
 
 * Basics of API and REST API
 * GET and POST methods
@@ -51,5 +51,5 @@ I also tested the API using **Postman**.
 * Connecting an AI model with an API
 * Testing API using Postman
 
-# Conclusion
+### Conclusion
 This task helped me understand how to create a simple API and connect an AI model with it.
