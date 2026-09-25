@@ -1,4 +1,4 @@
-# Coirei Internship - Task 1
+### Coirei Internship - Task 1
 
 # AI API using FastAPI and Ollama
 
