@@ -1,0 +1,21 @@
+[project]
+name = "coirei-internship"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Santhosh-kumar2004", email = "sk2004santhoshkumar@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+coirei-internship = "coirei_internship:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
