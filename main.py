@@ -14,6 +14,11 @@ app=FastAPI()
 class Request(BaseModel):
     user_input:str
 
+@app.get('/')
+def root():
+    return {
+        "message":"API is running"
+    }
 @app.post("/generate")
 def generate(input:Request):
     reply=ask_ai(input.user_input)
